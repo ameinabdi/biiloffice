@@ -1,0 +1,49 @@
+{
+    "name": "SingleCourse",
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "unique"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "isnotonlyfordegree",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "cfu",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityName": "demetraUser",
+            "otherEntityRelationshipName": "coursetitle",
+            "relationshipName": "cfstudent",
+            "otherEntityField": "cf",
+            "ownerSide": false
+        }
+    ],
+    "changelogDate": "20191014112314",
+    "entityTableName": "single_course",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": [
+        "BiilOffice"
+    ]
+}

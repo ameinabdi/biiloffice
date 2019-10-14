@@ -1,0 +1,78 @@
+{
+  "generator-jhipster": {
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": false,
+    "jhiPrefix": "jhi",
+    "languages": ["en", "fr"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageName": "com.biil.biiloffice",
+    "packageFolder": "com/biil/biiloffice",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "serviceDiscoveryType": false,
+    "skipClient": false,
+    "skipServer": false,
+    "testFrameworks": [],
+    "websocket": false,
+    "applicationType": "monolith",
+    "baseName": "BiilOffice",
+    "serverPort": "8081",
+    "cacheProvider": "no",
+    "authenticationType": "jwt",
+    "buildTool": "maven",
+    "clientPackageManager": "npm",
+    "useSass": true,
+    "skipUserManagement": false,
+    "clientFramework": "react",
+    "jhipsterVersion": "6.3.0",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "1.0.0-alpha.2"
+      }
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-nodejs",
+        "version": "1.0.0-alpha.2"
+      }
+    ]
+  },
+  "entities": ["DemetraUser", "SingleCourse"],
+  "generator-jhipster-nodejs": {
+    "jhipsterVersion": "6.3.0",
+    "applicationType": "monolith",
+    "baseName": "BiilOffice",
+    "packageName": "com.jhipster.node",
+    "packageFolder": "com/jhipster/node",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "sqlite",
+    "prodDatabaseType": "sqlite",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWUyMTZlMjdhMmMxYzZhYzNmYzljOTI0NWYxNmVkNTQ5MDJlMzZmNGFhZjIzZWQwZTZhNmFmZTQ4YTA2OWNjZDVlNDhjNjcwZDdlNzViMTFjODRhYTZmNTdhYzUwMjNmMjAzNmQzOTcwZTJjMzY1Y2E4OWZhNDg5NDIxZGNmNjc=",
+    "enableTranslation": false,
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": ""
+  }
+}
